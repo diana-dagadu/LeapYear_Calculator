@@ -1,0 +1,78 @@
+
+body{
+    background-image: url(/images/back.jpg);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    padding-top: 50%;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+   
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px 0.7px rgba(0,0,0,0.7);
+    width: 450px;
+    height: 310px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    color: #00295f;
+    font-size: 2.4rem;
+    font-family: 'Bitter', serif;
+    padding-top: 15px;
+}
+
+#btn{
+        color: #fff;
+        display: block;
+        width: 180px;
+        height: 40px;
+        outline: none;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 6px;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        background:#00295f;
+        border: 2px solid #00295f;
+        margin: auto;
+        transition: 0.3s ease-in-out;
+
+}
+
+#btn:hover{
+    background-color: #fc3452;
+    border: 2px solid #00295f;
+    transition: 0.3s ease-in-out;
+}
+
+#result{
+    color: #00295f;
+    margin-top: 1rem;
+    font-weight: 600;
+
+}
+
+
+.year-items input{
+    padding-left: 15px;
+} 
+
+#year {
+    height: 30px;
+    width: 220px;
+    margin: 15px 20px;
+    border-radius: 8px;
+    border: 2px solid #fc3452;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+ 
